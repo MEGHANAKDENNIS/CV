@@ -1,0 +1,62 @@
+                                                                                         HTML: HyperText Markup Language
+*HTML is the standard markup language for creating Web pages,foundation for all websites.
+*describes the structure of a Web page
+*HTML consists of a series of elements, elements tell the browser how to display the content
+
+ELEMENT
+The HTML element is everything from the start tag to the end tag:
+<tagname> Content goes here... </tagname>
+Ex:<h1>My First Heading</h1>
+
+
+TAGS:
+The <!DOCTYPE html> declaration defines document type ,it is an HTML5 document,not case sensitive,must only appear once,
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+<!--...-->	Defines a comment
+<!DOCTYPE> 	Defines the document type
+<a>	Defines a hyperlink
+<abbr>	Defines an abbreviation or an acronym
+<hr>     horizontal line and its self closing
+<br>      line breaker and its self closing
+<em> or <i> both italicize but ,em is stress emaphasis we read in diff tone
+<b> or <strong> both used to bold but strong as high importance
+<sub> subscript</sub> and <sup>superscript
+<mark> - Marked text ,like color on text ,highlight
+<small> - Smaller text,it will reduce text size than normal
+<del> - Deleted text, like line on text or can say strikeout
+<ins> - underline text
+
+
+
+HTML Attributes:
+*All HTML elements can have attributes
+*provide additional information,Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+*All HTML elements can have attributes
+*The src attribute of <img> specifies the path to the image to be displayed
+*The width and height attributes of <img> provide size information for images
+*The alt attribute of <img> provides an alternate text for an image
+*The style attribute is used to add styles to an element, such as color, font, size, and more,The HTML style attribute has the following syntax:
+<tagname style="property:value;">
+*The lang attribute of the <html> tag declares the language of the Web page,shd be used in html tag
+*The title attribute defines some extra information about an element.text over
+
+*HTML Headings,
+HTML headings are defined with the <h1> to <h6> tags.
+<h1> defines the most important heading. <h6> defines the least important heading: 
+
+The <p> element defines a paragraph even if it contaian new line do not care 
+but 
+The HTML <pre> element defines preformatted text.
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+
+*HTML links are defined with the <a> anchor  tag:
+ex:<a href="https://www.w3schools.com">This is a link</a>
+The link's destination is specified in the href attribute. 
+
+*HTML images are defined with the <img> tag.
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+ex:<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
